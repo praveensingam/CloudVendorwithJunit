@@ -1,0 +1,167 @@
+2024-05-09 21:54:31,342 [restartedMain] INFO  com.sp.CloudVendorApplication                      - Starting CloudVendorApplication using Java 17.0.9 with PID 36860 (C:\Users\Praveen\Documents\sts-workspace-1\CloudVendor\target\classes started by Praveen in C:\Users\Praveen\Documents\sts-workspace-1\CloudVendor)
+2024-05-09 21:54:31,346 [restartedMain] INFO  com.sp.CloudVendorApplication                      - No active profile set, falling back to 1 default profile: "default"
+2024-05-09 21:54:31,442 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls           - The Class-Path manifest attribute in C:\Users\Praveen\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Praveen/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2024-05-09 21:54:31,449 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-09 21:54:31,450 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-09 21:54:32,630 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09 21:54:32,742 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2024-05-09 21:54:33,711 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8080 (http)
+2024-05-09 21:54:33,732 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-09 21:54:33,735 [restartedMain] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-05-09 21:54:33,736 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-05-09 21:54:33,847 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-05-09 21:54:33,848 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2397 ms
+2024-05-09 21:54:34,196 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09 21:54:34,304 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-09 21:54:34,371 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              - HHH000026: Second-level cache disabled
+2024-05-09 21:54:34,845 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09 21:54:34,908 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2024-05-09 21:54:35,665 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@646036f9
+2024-05-09 21:54:35,670 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2024-05-09 21:54:35,979 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-09 21:54:37,654 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09 21:54:39,718 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 21:54:40,341 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09 21:54:40,915 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2024-05-09 21:54:40,957 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-09 21:54:40,998 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8080 (http) with context path ''
+2024-05-09 21:54:41,016 [restartedMain] INFO  com.sp.CloudVendorApplication                      - Started CloudVendorApplication in 10.405 seconds (process running for 12.174)
+2024-05-09 21:56:23,934 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09 21:56:23,945 [Thread-8] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
+2024-05-09 21:56:23,980 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 21:56:23,989 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2024-05-09 21:56:24,038 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2024-05-09 21:56:24,214 [restartedMain] INFO  com.sp.CloudVendorApplication                      - Starting CloudVendorApplication using Java 17.0.9 with PID 36860 (C:\Users\Praveen\Documents\sts-workspace-1\CloudVendor\target\classes started by Praveen in C:\Users\Praveen\Documents\sts-workspace-1\CloudVendor)
+2024-05-09 21:56:24,216 [restartedMain] INFO  com.sp.CloudVendorApplication                      - No active profile set, falling back to 1 default profile: "default"
+2024-05-09 21:56:24,572 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09 21:56:24,600 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2024-05-09 21:56:24,809 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8080 (http)
+2024-05-09 21:56:24,811 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-09 21:56:24,812 [restartedMain] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-05-09 21:56:24,813 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-05-09 21:56:24,858 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-05-09 21:56:24,859 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 639 ms
+2024-05-09 21:56:24,929 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09 21:56:24,935 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              - HHH000026: Second-level cache disabled
+2024-05-09 21:56:24,947 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09 21:56:24,949 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2024-05-09 21:56:25,049 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@65bf0214
+2024-05-09 21:56:25,049 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2024-05-09 21:56:25,055 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-09 21:56:25,146 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09 21:56:25,360 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 21:56:25,567 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09 21:56:25,738 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2024-05-09 21:56:25,752 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-09 21:56:25,759 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8080 (http) with context path ''
+2024-05-09 21:56:25,766 [restartedMain] INFO  com.sp.CloudVendorApplication                      - Started CloudVendorApplication in 1.616 seconds (process running for 116.924)
+2024-05-09 21:56:25,769 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2024-05-09 21:56:26,698 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-05-09 21:56:26,700 [RMI TCP Connection(5)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
+2024-05-09 21:56:26,723 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 21:56:26,725 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
+2024-05-09 21:56:26,749 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown completed.
+2024-05-09 21:56:38,378 [restartedMain] INFO  com.sp.CloudVendorApplication                      - Starting CloudVendorApplication using Java 17.0.9 with PID 41268 (C:\Users\Praveen\Documents\sts-workspace-1\CloudVendor\target\classes started by Praveen in C:\Users\Praveen\Documents\sts-workspace-1\CloudVendor)
+2024-05-09 21:56:38,382 [restartedMain] INFO  com.sp.CloudVendorApplication                      - No active profile set, falling back to 1 default profile: "default"
+2024-05-09 21:56:38,482 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls           - The Class-Path manifest attribute in C:\Users\Praveen\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Praveen/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2024-05-09 21:56:38,483 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-09 21:56:38,483 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-09 21:56:39,629 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09 21:56:39,731 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interface.
+2024-05-09 21:56:40,689 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8080 (http)
+2024-05-09 21:56:40,706 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-09 21:56:40,712 [restartedMain] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-05-09 21:56:40,712 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-05-09 21:56:40,846 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-05-09 21:56:40,847 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2363 ms
+2024-05-09 21:56:41,255 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09 21:56:41,370 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-09 21:56:41,442 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              - HHH000026: Second-level cache disabled
+2024-05-09 21:56:41,908 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09 21:56:41,960 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2024-05-09 21:56:42,415 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2bb32251
+2024-05-09 21:56:42,421 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2024-05-09 21:56:42,686 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-09 21:56:44,305 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09 21:56:44,598 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 21:56:45,224 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09 21:56:45,796 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2024-05-09 21:56:45,832 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-09 21:56:45,865 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8080 (http) with context path ''
+2024-05-09 21:56:45,882 [restartedMain] INFO  com.sp.CloudVendorApplication                      - Started CloudVendorApplication in 8.192 seconds (process running for 9.9)
+2024-05-09 21:59:37,449 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09 21:59:37,450 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2024-05-09 21:59:37,452 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2024-05-09 21:59:37,675 [http-nio-8080-exec-2] INFO  com.sp.rest.CloudController                        - Provided Vendor Info to addVendor method is CloudVendor [vendorId=null, vendorName=Jack, vendorDetails=Jackson, mobile=8567384012]
+2024-05-09 21:59:37,939 [http-nio-8080-exec-2] INFO  com.sp.rest.CloudController                        - Response received from service class to addVendor method is : Vendor with the same mobile number already exists
+2024-05-09 22:00:25,622 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-05-09 22:00:25,630 [RMI TCP Connection(7)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
+2024-05-09 22:00:25,667 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 22:00:25,673 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2024-05-09 22:00:25,725 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2024-05-09 22:00:36,311 [restartedMain] INFO  com.sp.CloudVendorApplication                      - Starting CloudVendorApplication using Java 17.0.9 with PID 36668 (C:\Users\Praveen\Documents\sts-workspace-1\CloudVendor\target\classes started by Praveen in C:\Users\Praveen\Documents\sts-workspace-1\CloudVendor)
+2024-05-09 22:00:36,314 [restartedMain] INFO  com.sp.CloudVendorApplication                      - No active profile set, falling back to 1 default profile: "default"
+2024-05-09 22:00:36,420 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls           - The Class-Path manifest attribute in C:\Users\Praveen\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Praveen/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2024-05-09 22:00:36,421 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-09 22:00:36,422 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-09 22:00:37,676 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09 22:00:37,794 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+2024-05-09 22:00:39,019 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8080 (http)
+2024-05-09 22:00:39,046 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-09 22:00:39,051 [restartedMain] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-05-09 22:00:39,052 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-05-09 22:00:39,205 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-05-09 22:00:39,206 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2783 ms
+2024-05-09 22:00:39,664 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09 22:00:39,856 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-09 22:00:39,961 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              - HHH000026: Second-level cache disabled
+2024-05-09 22:00:40,597 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09 22:00:40,676 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2024-05-09 22:00:41,247 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6076f5d7
+2024-05-09 22:00:41,253 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2024-05-09 22:00:41,580 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-09 22:00:43,573 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09 22:00:43,930 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 22:00:44,543 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09 22:00:45,121 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2024-05-09 22:00:45,156 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-09 22:00:45,194 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8080 (http) with context path ''
+2024-05-09 22:00:45,213 [restartedMain] INFO  com.sp.CloudVendorApplication                      - Started CloudVendorApplication in 9.685 seconds (process running for 11.392)
+2024-05-09 22:01:05,878 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09 22:01:05,879 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2024-05-09 22:01:05,881 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2024-05-09 22:01:06,130 [http-nio-8080-exec-2] INFO  com.sp.rest.CloudController                        - Provided Vendor Info to addVendor method is CloudVendor [vendorId=null, vendorName=Jack, vendorDetails=Jackson, mobile=8567384012]
+2024-05-09 22:01:06,428 [http-nio-8080-exec-2] INFO  com.sp.rest.CloudController                        - Response received from service class to addVendor method is : Vendor with the same mobile number already exists
+2024-05-09 22:02:10,073 [http-nio-8080-exec-4] INFO  com.sp.rest.CloudController                        - Provided vendor name to findVendorInfoByName method is : jeff bezos
+2024-05-09 22:02:10,147 [http-nio-8080-exec-4] INFO  com.sp.rest.CloudController                        - vendor found using findVendorInfoByName method is : [CloudVendor [vendorId=33, vendorName=Jeff Bezos, vendorDetails=AWS, mobile=9123876450]]
+2024-05-09 22:02:20,762 [http-nio-8080-exec-6] INFO  com.sp.rest.CloudController                        - Provided vendor name to findVendorInfoByName method is : null
+2024-05-09 22:02:20,763 [http-nio-8080-exec-6] ERROR com.sp.rest.CloudController                        - Exception caught in findVendorInfoByName method is : java.lang.IllegalArgumentException: Vendor name should not be null or blank
+2024-05-09 22:02:25,570 [http-nio-8080-exec-8] INFO  com.sp.rest.CloudController                        - Provided vendor name to findVendorInfoByName method is : nul l
+2024-05-09 22:02:25,579 [http-nio-8080-exec-8] ERROR com.sp.rest.CloudController                        - Exception caught in findVendorInfoByName method is : jakarta.persistence.EntityNotFoundException: No Entity was present with given vendorName
+2024-05-09 22:02:31,930 [http-nio-8080-exec-9] INFO  com.sp.rest.CloudController                        - Provided vendor name to findVendorInfoByName method is :  null
+2024-05-09 22:02:31,930 [http-nio-8080-exec-9] ERROR com.sp.rest.CloudController                        - Exception caught in findVendorInfoByName method is : java.lang.IllegalArgumentException: Vendor name should not be null or blank
+2024-05-09 22:02:34,716 [http-nio-8080-exec-1] INFO  com.sp.rest.CloudController                        - Provided vendor name to findVendorInfoByName method is :  null 
+2024-05-09 22:02:34,717 [http-nio-8080-exec-1] ERROR com.sp.rest.CloudController                        - Exception caught in findVendorInfoByName method is : java.lang.IllegalArgumentException: Vendor name should not be null or blank
+2024-05-09 22:02:53,443 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-05-09 22:03:01,589 [http-nio-8080-exec-5] INFO  com.sp.rest.CloudController                        - Provided vendorId to deleteVendorInfo method is : 41
+2024-05-09 22:03:02,133 [http-nio-8080-exec-5] INFO  com.sp.rest.CloudController                        - Response recieved from service class to deletevendorInfo method is vendor does not exist with Id 41
+2024-05-09 22:03:11,356 [http-nio-8080-exec-4] INFO  com.sp.rest.CloudController                        - Provided vendorId to deleteVendorInfo method is : 31
+2024-05-09 22:03:11,474 [http-nio-8080-exec-4] INFO  com.sp.rest.CloudController                        - Response recieved from service class to deletevendorInfo method is Vendor info deleted existing with vendorId 31
+2024-05-09 22:03:16,379 [http-nio-8080-exec-6] INFO  com.sp.rest.CloudController                        - Provided vendorId to deleteVendorInfo method is : 31
+2024-05-09 22:03:16,386 [http-nio-8080-exec-6] INFO  com.sp.rest.CloudController                        - Response recieved from service class to deletevendorInfo method is vendor does not exist with Id 31
+2024-05-09 22:03:26,664 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "null"]
+2024-05-09 22:03:40,848 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-05-09 22:03:46,105 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-05-09 22:03:49,666 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-05-09 22:03:57,550 [http-nio-8080-exec-2] INFO  com.sp.rest.CloudController                        - Provided vendorId to getVendorInfoById method is : 31
+2024-05-09 22:03:57,562 [http-nio-8080-exec-2] INFO  com.sp.rest.CloudController                        - Search results for provided vendorId in getVendorInfoById method is : null
+2024-05-09 22:04:08,380 [http-nio-8080-exec-3] INFO  com.sp.rest.CloudController                        - Provided vendorId to getVendorInfoById method is : 32
+2024-05-09 22:04:08,388 [http-nio-8080-exec-3] INFO  com.sp.rest.CloudController                        - Search results for provided vendorId in getVendorInfoById method is : null
+2024-05-09 22:04:14,659 [http-nio-8080-exec-5] INFO  com.sp.rest.CloudController                        - Provided vendorId to getVendorInfoById method is : 33
+2024-05-09 22:04:14,668 [http-nio-8080-exec-5] INFO  com.sp.rest.CloudController                        - Search results for provided vendorId in getVendorInfoById method is : CloudVendor [vendorId=33, vendorName=Jeff Bezos, vendorDetails=AWS, mobile=9123876450]
+2024-05-09 22:05:42,552 [http-nio-8080-exec-7] INFO  com.sp.rest.CloudController                        - VendorsList found using getAllVendors method is : [CloudVendor [vendorId=42, vendorName=Jack, vendorDetails=Jackson, mobile=8567384012], CloudVendor [vendorId=33, vendorName=Jeff Bezos, vendorDetails=AWS, mobile=9123876450], CloudVendor [vendorId=34, vendorName=Bill Gates, vendorDetails=Azure, mobile=9012387645], CloudVendor [vendorId=35, vendorName=IBM, vendorDetails=IBM cloud, mobile=9023876451], CloudVendor [vendorId=36, vendorName=Oracle, vendorDetails=Oracle cloud, mobile=9042387645], CloudVendor [vendorId=37, vendorName=Alibaba, vendorDetails=Alibaba, mobile=9092387645]]
+2024-05-09 23:30:29,223 [RMI TCP Connection(93)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-05-09 23:30:29,380 [RMI TCP Connection(93)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
+2024-05-09 23:30:29,475 [RMI TCP Connection(93)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 23:30:29,538 [RMI TCP Connection(93)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2024-05-09 23:30:29,570 [RMI TCP Connection(93)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
